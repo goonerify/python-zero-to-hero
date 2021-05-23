@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "Section 15 Testing In Python\\venv.section-15\\Scripts\\python.exe",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pydocstyleEnabled": true,
+  "python.linting.pydocstyleArgs": ["--ignore=D403,D400,D415,D203"],
+  "python.formatting.provider": "black", // How to ignore a specific rule,
+  "python.formatting.blackPath": "black",
+  "python.linting.flake8Path": "flake8",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.analysis.extraPaths": ["Section 15 Testing In Python\\"]
+}
